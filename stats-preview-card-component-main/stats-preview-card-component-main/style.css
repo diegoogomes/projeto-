@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family:  'Inter',sans-serif;
+    height: 100vh;
+    margin: 0 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    max-width: 100%;
+}
+.card{
+    background-color:  hsl(244, 38%, 16%);
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.txt_card{
+    padding: 12px;
+    
+}
